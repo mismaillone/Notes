@@ -1,0 +1,16 @@
+I tried so many methods because i have purchase a wifi adapter TP LINK ac600 for packet Injection but when i get the tp link adapter and put it on kali 
+doesn't work after lot of research i came to know i have to intall driver realtek-rtl88xxau-dkms  now try download the realtek driver but 
+it won't install because my linux headers show nothing i completely update my kali but it doesn't show linux headers 
+
+i tried commands 
+
+1. sudo uname -r  
+    here i found kernal verison.
+ 2. sudo apt install linux-headeres-$(uname -r)
+but shows error
+  <i>  Unable to locate package linux-headers-6.0.0-kali5-amd64
+  Couldn't find any package by glob 'linux-headers-6.0.0-kali5-amd64'</i>
+
+i tried lot of things but only this comand works for me 
+
+<b>root@kali-Kali:/home/ghibli/rtl8812au# apt-get install realtek-rtl88xxau-dkms</b>
