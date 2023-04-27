@@ -8,9 +8,9 @@ i tried commands
     here i found kernal verison.
  2. sudo apt install linux-headeres-$(uname -r)
 but shows error
-  <i>  Unable to locate package linux-headers-6.0.0-kali5-amd64
-  Couldn't find any package by glob 'linux-headers-6.0.0-kali5-amd64'</i>
+   Unable to locate package linux-headers-6.0.0-kali5-amd64
+   Couldn't find any package by glob 'linux-headers-6.0.0-kali5-amd64'
 
 i tried lot of things but only this comand works for me 
 
-<b>root@kali-Kali:/home/ghibli/rtl8812au# apt-get install realtek-rtl88xxau-dkms</b>
+root@kali-Kali:/home/ghibli/rtl8812au# apt-get install realtek-rtl88xxau-dkms
